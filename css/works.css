@@ -1,0 +1,28 @@
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .works .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 71px;
+    max-width: 940px; }
+  .works__btn a {
+    color: #413d4b; }
+    .works__btn a span {
+      margin-right: 10px; }
+  .works__title {
+    margin-right: 250px; }
+  .works__cards {
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .works .cards-container {
+    max-width: 1800px;
+    margin: 0 auto; }
+  .works__card {
+    flex-basis: 10%;
+    max-width: 267px;
+    max-height: 200px; }

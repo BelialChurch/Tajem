@@ -1,0 +1,80 @@
+.cite {
+  padding-top: 137px;
+  background: url(/img/cite-bg.webp) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1; }
+  .cite::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+    opacity: 0.85;
+    z-index: -1; }
+  .cite-slider {
+    display: flex;
+    max-width: 797px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .cite .slick-dots {
+    margin-top: 58px;
+    display: flex;
+    min-width: 306px;
+    justify-content: space-between; }
+    .cite .slick-dots li button {
+      color: rgba(0, 0, 0, 0);
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: none; }
+    .cite .slick-dots li:first-child button {
+      background: url(/img/cite-1.jpg) no-repeat;
+      background-size: cover; }
+    .cite .slick-dots li:nth-child(2) button {
+      background: url(/img/cite-2.jpg) no-repeat;
+      background-size: cover; }
+    .cite .slick-dots li:nth-child(3) button {
+      background: url(/img/cite-3.webp) no-repeat;
+      background-size: cover; }
+    .cite .slick-dots li:nth-child(4) button {
+      background: url(/img/cite-4.jpg) no-repeat;
+      background-size: cover; }
+    .cite .slick-dots li:nth-child(5) button {
+      background: url(/img/cite-5.jpg) no-repeat;
+      background-size: cover; }
+    .cite .slick-dots .slick-active button {
+      width: 70px;
+      height: 70px; }
+  .cite-slide {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    position: relative; }
+    .cite-slide::before {
+      content: url(/img/cite-slide-design.png);
+      position: absolute;
+      top: -56px; }
+    .cite-slide__descr {
+      margin-bottom: 52px;
+      color: rgba(255, 255, 255, 0.85);
+      font-family: "Playfair Display";
+      letter-spacing: 0.4px;
+      font-size: 16px; }
+    .cite-slide__name {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin-bottom: 13px; }
+    .cite-slide__position {
+      font-size: 13px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.7); }

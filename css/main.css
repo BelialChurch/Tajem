@@ -1,0 +1,101 @@
+.main {
+  padding-top: 15px;
+  padding-bottom: 207px;
+  background: url(/img/main-bg.webp) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1; }
+  .main::before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+    opacity: 0.85;
+    position: absolute;
+    z-index: -1; }
+  .main-slider {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%; }
+    .main-slider .main-slide {
+      margin: 0; }
+    .main-slider .slick-slide {
+      display: flex;
+      text-align: center; }
+  .main-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 20px; }
+    .main-slide:focus {
+      outline: none; }
+    .main-slide__title {
+      font-family: "Playfair Display - Black";
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 52px;
+      position: relative;
+      letter-spacing: 0.32px; }
+      .main-slide__title::before {
+        content: '';
+        width: 50px;
+        height: 1px;
+        background-color: #00e0d0;
+        position: absolute;
+        left: 46%;
+        top: 50px; }
+    .main-slide__descr {
+      letter-spacing: 0.7px;
+      font-size: 14px;
+      font-weight: 300;
+      max-width: 771px;
+      margin-bottom: 50px; }
+    .main-slide-dot {
+      display: flex;
+      justify-content: center;
+      margin-top: 127px; }
+      .main-slide-dot li {
+        margin-right: 5px; }
+        .main-slide-dot li button {
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background: none;
+          border: 1px solid #c2c2c2;
+          font-size: 0;
+          cursor: pointer; }
+      .main-slide-dot .slick-active button {
+        border: 1px solid #00e0d0;
+        background: #00e0d0;
+        transition: all ease 0.3s; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 183px; }
+  .header__logo {
+    font-weight: 300;
+    font-size: 30px; }
+    .header__logo_text {
+      background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+      background-clip: text; }
+  .header__nav {
+    min-width: 526px; }
+  .header__list {
+    display: flex;
+    justify-content: space-between; }
+  .header__link {
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all ease 0.3s; }
+    .header__link:hover {
+      color: #00e0d0;
+      transition: all ease 0.3s; }

@@ -1,0 +1,49 @@
+.contact .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.contact-news {
+  flex-basis: 55%; }
+  .contact-news__title {
+    margin-bottom: 35px; }
+  .contact-news__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contact-news__form_input, .contact-news__form_ta {
+      width: 100%;
+      padding-left: 21px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      margin-bottom: 23px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      color: rgba(65, 61, 75, 0.5); }
+      .contact-news__form_input::placeholder, .contact-news__form_ta::placeholder {
+        color: rgba(65, 61, 75, 0.5); }
+    .contact-news__form_ta {
+      padding-bottom: 165px;
+      max-height: 200px;
+      overflow: hidden;
+      resize: none; }
+    .contact-news__form_btn {
+      padding-right: 32px;
+      padding-left: 32px; }
+
+.contact-clients__title {
+  margin-bottom: 37px; }
+
+.contact-clients .clients-cards {
+  min-height: 409px;
+  display: flex; }
+  .contact-clients .clients-cards .first-column {
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .contact-clients .clients-cards .second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
